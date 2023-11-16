@@ -20,7 +20,7 @@ const cors=require('cors')
  server.use(middleware)
 server.use(cors())
 server.use(router)
- const PORT=8000
+ const PORT=8001
  server.listen(PORT,()=>{
     console.log(`___json server started at port :${PORT}_____`);
  })
